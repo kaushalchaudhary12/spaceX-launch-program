@@ -7,7 +7,7 @@ For server side rendering I have used Next.js as apaart from being a great frame
 I have used esLint library for the standard code checks and it's going to tell you if you’ve imported something and not used it, if your function could be short-handed, and loads of other little gotchas that you can fully configure.
 
 # CI/CD pipeline
-For continous Integration and deployment I have used heroku as it is pretty simple and straight-forward with minimal configuration.
+For continous Integration and deployment I have used heroku as it is pretty simple and straight-forward with minimal configuration. (https://spacex-launch-program-assign.herokuapp.com/)
 
 # To run project
 - run "npm run build" command to build the html for ssr
