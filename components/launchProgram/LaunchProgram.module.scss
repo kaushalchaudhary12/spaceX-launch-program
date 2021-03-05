@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.launchItem {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+
+    h4 {
+        color: #000080;
+    }
+}
+
+.image {
+    text-align: center;
+    background-color: #F0F0F0;
+    img {
+        width: 12rem;
+    }
+}
+
+.title {
+    font-weight: bold;
+}
+
+.mb-05 {
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
